@@ -68,3 +68,15 @@ public class Acessorio : Produto {
     }
 }
 
+public class Colecionavel : Produto {
+    private bool edicaoLimitada;
+
+    public Colecionavel(string nome, decimal preco, string descricao, string categoria, bool edicaoLimitada ) : base(nome, preco, descricao, categoria) {
+        EdicaoLimitada = edicaoLimitada;
+    }
+
+    public string EdicaoLimitada{
+        get { return edicaoLimitada; }
+        set { edicaoLimitada = value; }
+    }
+}
