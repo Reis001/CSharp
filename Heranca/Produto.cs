@@ -80,3 +80,16 @@ public class Colecionavel : Produto {
         set { edicaoLimitada = value; }
     }
 }
+
+public class Prpgram {
+        public static void main (String[] args){
+            Produto produto;
+            produto = new ConsoleGame("Asus Rog Ally", 6.299, "Console portátil Asus Rog Ally", "Console", 500000);
+
+            Jogo jogo = new Jogo("Among Us", 10.00, "Jogo completo Among Us", "Jogo para Asus Rog Ally", "Suspense");
+
+            Acessorio acessorio = new Acessorio("Fone Redragon", 256.99, "Fone entrada P2", "Fone para Asus Rog Ally", "Periférico");
+
+            Colecionavel colecionavel = new Colecionavel("Funko Groot", 125.00, "Funko Groot Guardiões da Galaxia vol 2", "Decoração para mesanino", "true");
+        }
+}
