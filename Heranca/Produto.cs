@@ -28,3 +28,16 @@ public  class Produto {
         set { categoria = value; }
     }
 }
+
+public class ConsoleGame : Produto {
+    private int capacidadeArmazenamento;
+
+    public ConsoleGame(string nome, decimal preco, string descricao, string categoria, int capacidadeArmazenamento ) : base(nome, preco, descricao, categoria) {
+        CapacidadeArmazenamento = capacidadearmAzenamento;
+    }
+
+    public string CapacidadeArmazenamento{
+        get { return capacidadeArmazenamento; }
+        set { capacidadeArmazenamento = value; }
+    }
+}
