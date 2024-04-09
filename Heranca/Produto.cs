@@ -1,4 +1,4 @@
-public  class Produto {
+public class Produto {
     private String nome;
     private Decimal preco;
     private String descricao;=
@@ -81,7 +81,7 @@ public class Colecionavel : Produto {
     }
 }
 
-public class Prpgram {
+public class Program {
         public static void main (String[] args){
             Produto produto;
             produto = new ConsoleGame("Asus Rog Ally", 6.299, "Console portátil Asus Rog Ally", "Console", 500000);
