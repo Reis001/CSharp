@@ -77,10 +77,13 @@ public class Program {
         public static void main (String[] args){
 
             Guerreiro guerreiro = new Guerreiro("Anjo Caido N", "Nação da espada", 4.5bi "Espada canceladora de cpf");
+            guerreiro.Atacar();
 
             Mago mago = new Mago("Lucas", "Nação de Hogwarts", 18 "Grimório do wingardium leviosa");
+            mago.Atacar();
 
             Pescador pescador = new Pescador("Jax Pescador", "Nação do Lol", 85 "Vara do sapo verde");
+            pescador.Atacar();
         }
 }
 
