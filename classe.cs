@@ -4,18 +4,18 @@ public class Personagem
 {
     private string nome;
     private int nivel;
-    private double potuacao;
+    private double pontuacao;
     private double vida;
     private double forca;
     private double agilidade;
     private double inteligencia;
     private string[] armasEquipamentos;
 
-    public Personagem(string nome, int nivel, double potuacao, double vida, double forca, double agilidade, string[] armasEquipamentos) 
+    public Personagem(string nome, int nivel, double pontuacao, double vida, double forca, double agilidade, double inteligencia, string[] armasEquipamentos) 
     {
         this.nome = nome;
         this.nivel = nivel;
-        this.potuacao = potuacao;
+        this.pontuacao = pontuacao;
         this.vida = vida;
         this.forca = forca;
         this.agilidade = agilidade;
@@ -79,7 +79,7 @@ public class Personagem
         this.inteligencia = inteligencia;
     }
     // Getter para o armasEquipamentos
-    public string GetArmasEquipamentos(){
+    public string[] GetArmasEquipamentos(){
         return armasEquipamentos;
     }
     // Setter para o armasEquipamentos
